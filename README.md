@@ -21,17 +21,17 @@
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
 
-# Feature #1:
+# Feature #1: Location
 ***
 ## As a user, I want to enter the name of a location so that I do not need to look up the latitude and longitude every time I learn about a new location.
 ***
 * Estimate of time needed to complete: ** 2 hour**
-* Start time: ** 7:30 pm**
-* Finish time: ** **
-* Actual time needed to complete: ** **
+* Start time: ** 6:30 pm**
+* Finish time: ** 8:30 **
+* Actual time needed to complete: ** 2 hours **
 
-## **Driver:** 
-## **Navigator:** 
+## **Driver: Anna ** 
+## **Navigator: Aaron** 
 ***
 
 # Feature #2:
@@ -39,7 +39,7 @@
 ## Weather: As a user, I want to request current weather information so that I can learn more about the typical weather patterns in the location.
 ***
 * Estimate of time needed to complete: **1hour **
-* Start time: ** **
+* Start time: ** 9:27pm **
 * Finish time: ** **
 * Actual time needed to complete: ** **
 
