@@ -16,10 +16,12 @@ const PORT = process.env.PORT || 3000;
 app.get('/location', (req,res) => {
 
   try {
-    let cityData = require('./data/geo.json');
-    let location = new City(req.query.data, cityData);
+    let location = searchToLatLong(req.query.data);
+    // let cityData = require('./data/geo.json');
+    // let location = new City(req.query.data, cityData);
+    // console.log(location);
+    .then(location => response.send(location));
     console.log(location);
-    res.send(location);
 
 
   }catch(error){
@@ -68,3 +70,10 @@ app.listen(PORT, () => console.log(`listening on port ${PORT}`));
 
 
 
+function serchToLatLong(query){
+  const url =`https://maps.googleapis.com/maps/api/geocode/json?address=${query}&key=${process.env.GEOCODE_API_KEY}`;
+  return superagent.get(url)
+    .then(res => {
+      return new City(query, res);
+    });   
+}
