@@ -11,6 +11,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 
 
+
 //routes to handle user request and send the response from our database
 app.get('/location', (req,res) => {
 
@@ -41,12 +42,12 @@ app.get('/weather', (request, response) => {
 function getWeather() {
   const darkskyData = require('./data/darksky.json');
   const weatherSummaries = [];
-  darkskyData.daily.data.forEach(day => {
+  darkskyData.daily.data.map((day) => {
     weatherSummaries.push(new Weather(day));
   });
   return weatherSummaries;
 }
- 
+
 // constructor function to buld a city object instances
 function City (req, data){
 
