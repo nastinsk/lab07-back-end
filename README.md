@@ -1,34 +1,35 @@
-# city-explorer
 
-**Author**: Anastasia Lebedeva, Morgan T Shaw
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+# City-explorer
+
+**Author**: Anastasia Lebedeva, Aaron Imbrock
+**Version**: 1.0.2 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+This app converts a location entered by the user into a latitude and longitude, then use those values to request weather information for that location and information from Evenbrite website. 
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+1. Use this link to get access to the front-end of the app https://nastinsk.github.io/city-explorer-front-end/
+2. User must fill the form on the index.html page.
+3. In "Enter the URL to your deployed back end" print : https://cityexplorerlab.herokuapp.com 
+4. To display Google maps User will print his own Geocoding API Key in API KEY field.
+Then print the name of the location to display information about it.
+
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+HTML, CSS, jQuery, Java Script used for the front end of this app. 
+Java Script, Express, Dotenv, Superagent, Cors for the backend
+
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
-
-## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
-
-# Feature #1: Location
+# Feature #1: Data formatting
 ***
-## As a user, I want to enter the name of a location so that I do not need to look up the latitude and longitude every time I learn about a new location.
+## As a user, I want the application to provide properly formatted data so that I can view similar data for any location I choose. NOTE: Do this first with the mock data before refactoring to an API call.
 ***
-* Estimate of time needed to complete: ** 2 hour**
-* Start time: ** 6:30 pm**
-* Finish time: ** 8:30 **
-* Actual time needed to complete: ** 2 hours **
+* Estimate of time needed to complete: **1 hour**
+* Start time: **6:30pm**
+* Finish time: **7:00**
+* Actual time needed to complete: **30 minutes**
 
 ## **Driver: Anna ** 
 ## **Navigator: Aaron** 
@@ -36,10 +37,23 @@
 
 # Feature #2:
 ***
+##  Locations: As a user, I want to enter the name of a location so that I do not need to look up the latitude and longitude every time I learn about a new location.
+***
+* Estimate of time needed to complete: **2hour**
+* Start time: **7:00pm**
+* Finish time: **9:00pm**
+* Actual time needed to complete: **2hours**
+
+## **Driver: Anna ** 
+## **Navigator: Aaron** 
+***
+
+# Feature #3:
+***
 ## Weather: As a user, I want to request current weather information so that I can learn more about the typical weather patterns in the location.
 ***
-* Estimate of time needed to complete: **1hour **
-* Start time: ** 9:27pm **
+* Estimate of time needed to complete: **2hours**
+* Start time: ** **
 * Finish time: ** **
 * Actual time needed to complete: ** **
 
@@ -47,9 +61,9 @@
 ## **Navigator:** 
 ***
 
-# Feature #3:
+# Feature #4:
 ***
-## Errors: As a user, I want clear messages if something goes wrong so I know if I need to make any changes or try again in a different manner.
+## EventBrite: As a user, I want to request information about events in the area so that users can learn about what is taking place in the location.
 ***
 * Estimate of time needed to complete: ** 1hour**
 * Start time: ** **
