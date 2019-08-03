@@ -31,7 +31,7 @@ app.listen(PORT, () => console.log(`Server is up on port ${PORT}`));
 app.get('/location', (request, response) => {
   serchToLatLong(request.query.data)
     .then(location => response.send(location));
-})
+});
 
 app.get('/weather', (request, response) => {
   try {

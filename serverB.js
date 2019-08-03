@@ -63,4 +63,3 @@ function searchToLatLong(query){
       return new City(query, res);
     });
 }
-
