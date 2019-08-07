@@ -57,8 +57,6 @@ Java Script, Express, Dotenv, Superagent, Cors for the backend
 * Finish time: ** **
 * Actual time needed to complete: ** **
 
-## **Driver:** 
-## **Navigator:** 
 ***
 
 # Feature #4:
@@ -66,12 +64,11 @@ Java Script, Express, Dotenv, Superagent, Cors for the backend
 ## EventBrite: As a user, I want to request information about events in the area so that users can learn about what is taking place in the location.
 ***
 * Estimate of time needed to complete: ** 1hour**
-* Start time: ** **
-* Finish time: ** **
-* Actual time needed to complete: ** **
+* Start time: **3:00pm**
+* Finish time: **5:27pm**
+* Actual time needed to complete: **3hours 27 minutes**
 
-## **Driver:** 
-## **Navigator:** 
+
 ***
 
 
